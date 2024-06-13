@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: rgb(190, 80, 7) !important;
+   background-image: url(img/);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    background-attachment: fixed;
+    background-color: rgba(117, 117, 117, 0.696);
+    z-index: 1;
+    min-width: 100vw;
+    top: 0;
+}
+
+.logoinicio{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+img.logo{
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+h1{
+    font-size: 10px;
+    bottom: 0;
+    margin-top: 44px;
+}
+
+.divBtn{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+button.btnInicio{
+    height: 40px;
+    border-radius: 10px;
+    padding: 2px; 
+    padding-left: 3px;
+    padding-right: 3px;  
+}
+
+.carousel-inner{
+    max-width: 100vw !important;
+    height:35vh !important;
+    margin-top: 55px;
+}
+
+img{
+    max-height:100vh ;
+}
+
+
+.accordion-item:nth-child(1) .accordion-button, .habilitado{
+    background-color: rgb(206, 221, 0) !important;
+}
+.accordion-item:nth-child(2) .accordion-button, .habilitado2{
+    background-color: rgb(204, 157, 2) !important;
+}
+.accordion-item:nth-child(3) .accordion-button, .habilitado3{
+    background-color: rgb(255, 136, 0) !important;
+}
+
+.accordion-collapse{
+    background-image: url(img/luxa.org-opacity-changed-istockphoto-1442417585-612x612\ \(1\).jpg);
+    background-size: cover;
+    z-index: -2 !important;
+    opacity: 1 !important;
+}
+
+#collapseOne .accordion-body{
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+    z-index: 2 !important;
+    opacity: 1 !important;
+}
+
+
+.escolhersabor{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.escolhersabor p{
+    margin: 0% 0% 0% -35% !important;
+    font-size: 1.4em;
+    color: white !important;
+}
+
+.pedido{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.habilitado, .habilitado2, .habilitado3{
+    padding: 2% 6%;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+}
+
+.desabilitado, .desabilitado2, .desabilitado3{
+    padding: 2% 6%;
+    opacity: 0;
+    cursor: none;
+}
+
+
+h2.tituloacordiao{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+input.form-control{
+    border: black 2px solid;
+}
+
+.mb-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+button.btn-primary{
+    margin-left: 22%;
+    margin-top: 10%;    
+}
